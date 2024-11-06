@@ -1,21 +1,13 @@
 /* #region Header */
 .header {}
 
-.nav {}
+.header-nav {}
 
-.logo {}
+.header-logo {}
 
 .nav-list {}
 
-.nav-link {
-        color: rgb(46, 47, 66);
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 2%;
-        text-align: left;
-}
+.nav-link {}
 
 .contact {}
 
@@ -23,4 +15,60 @@
 
 .contact-item {}
 /* #endregion */
-/*  */
+/* #region Hero */
+.hero {}
+
+.hero-title {}
+
+.hero-button
+/* #endregion*/
+/* #region Studios */
+.studio {}
+
+.studios-title {}
+
+.studios-list {}
+
+.studios-item {}
+
+.studios-subtitle {}
+
+.studios-text {}
+/* #endregion*/
+/* #region Contacts */
+.contacts {}
+
+.contacts-title {}
+
+.contacts-list {}
+
+.contacts-item {}
+
+.contacts-img {}
+
+.contacts-subtitle {}
+
+.contacts-text {}
+/* #endregion*/
+/* #region Portfolio */
+.portfolio {}
+
+.portfolio-title {}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-image {}
+
+.portfolio-subtitle {}
+
+.portfolio-text {}
+/* #endregion*/
+/* #region Footer */
+.footer {}
+
+.footer-logo {}
+
+.footer-text {}
+/* #endregion*/
