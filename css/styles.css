@@ -9,6 +9,9 @@
         color: #404BBF;
         background-color: #404BBF;
 }
+.button:focus {
+        color: #404BBF;
+}
 /* #endregion */
 /* #region Header */
 .header {}
@@ -66,6 +69,7 @@
         font-weight: 700;
         letter-spacing: 0.02em;
         line-height: 1.07;
+        text-align: center;
 }
 
 .hero-button{
@@ -76,12 +80,15 @@
         letter-spacing: 0.04em;
         background: rgb(77, 90, 229);
         cursor: pointer;
+        line-height: 1.5;
 }
 /* #endregion*/
 /* #region Studios */
 .studio {}
 
-.studios-title {}
+.studios-title {
+        line-height: 1.2;
+}
 
 .studios-list {}
 
@@ -116,14 +123,15 @@
         font-weight: 700;
         letter-spacing: 0.02em;
         line-height: 1.11;
-        ext-transform: capitalize;
+        text-transform: capitalize;
+        text-align: center;
 }
 
-.contacts-list {
+.contacts-list {}
+
+.contacts-item {
         background-color: #FFFFFF
 }
-
-.contacts-item {}
 
 .contacts-img {}
 
@@ -156,8 +164,9 @@
         font-size: 36px;
         font-weight: 700;
         letter-spacing: 0.02em;
-        line-height: 1.11;
+        line-height: 1.12;
         text-transform: capitalize;
+        text-align: center
 }
 
 .portfolio-list {}
@@ -180,6 +189,7 @@
         font-size: 16px;
         font-weight: 400;
         letter-spacing: 0.02em;
+        line-height: 1.5;
 }
 /* #endregion*/
 /* #region Footer */
@@ -203,7 +213,7 @@
         font-size: 16px;
         font-weight: 400;
         letter-spacing: 0.02em;
-        line-height: 1.17;
+        line-height: 1.5;
 }
 /* #endregion*/
 /*#region Logo*/
