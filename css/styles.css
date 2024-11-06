@@ -30,14 +30,16 @@
 
 .nav-list {}
 
-.nav-item{}
-
-.nav-link {
+.nav-item{
         color: rgb(46, 47, 66);
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
         letter-spacing: 0.02em;
+}
+
+.nav-link {
+        line-height: 1.5;
 }
 
 .contact {
@@ -54,7 +56,8 @@
         letter-spacing: 0.02em;
 }
 .contact-link{
-        color:#434455
+        color:#434455;
+        line-height: 1.5;
 }
 /* #endregion */
 /* #region Hero */
@@ -164,9 +167,9 @@
         font-size: 36px;
         font-weight: 700;
         letter-spacing: 0.02em;
-        line-height: 1.12;
+        line-height: 1.11;
         text-transform: capitalize;
-        text-align: center
+        text-align: center;
 }
 
 .portfolio-list {}
@@ -181,6 +184,7 @@
         font-size: 20px;
         font-weight: 500;
         letter-spacing: 0.02em;
+        line-height: 1.2;
 }
 
 .portfolio-text {
