@@ -3,24 +3,70 @@
 
 .header-nav {}
 
-.header-logo {}
+.header-logo {
+        color: rgb(46, 47, 66);
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-transform: uppercase;
+}
 
 .nav-list {}
 
-.nav-link {}
+.nav-link {
+        color: rgb(46, 47, 66);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
 
 .contact {}
 
 .contact-list {}
 
-.contact-item {}
+.contact-item {
+        color: rgb(67, 68, 85);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
 /* #endregion */
 /* #region Hero */
-.hero {}
+.hero {
+        background: rgb(46, 47, 66);
+}
 
-.hero-title {}
+.hero-title {
+        color: rgb(255, 255, 255);
+        font-family: Roboto;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
 
-.hero-button
+.hero-button{
+        color: rgb(255, 255, 255);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        text-align: left;
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        background: rgb(77, 90, 229);
+}
 /* #endregion*/
 /* #region Studios */
 .studio {}
@@ -31,14 +77,38 @@
 
 .studios-item {}
 
-.studios-subtitle {}
+.studios-subtitle {
+        color: rgb(46, 47, 66);
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
 
-.studios-text {}
+.studios-text {
+        color: rgb(67, 68, 85);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
 /* #endregion*/
 /* #region Contacts */
 .contacts {}
 
-.contacts-title {}
+.contacts-title {
+        color: rgb(46, 47, 66);
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
 
 .contacts-list {}
 
@@ -46,14 +116,38 @@
 
 .contacts-img {}
 
-.contacts-subtitle {}
+.contacts-subtitle {
+        color: rgb(46, 47, 66);
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
 
-.contacts-text {}
+.contacts-text {
+        color: rgb(67, 68, 85);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
 /* #endregion*/
 /* #region Portfolio */
 .portfolio {}
 
-.portfolio-title {}
+.portfolio-title {
+        color: rgb(46, 47, 66);
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
 
 .portfolio-list {}
 
@@ -61,14 +155,61 @@
 
 .portfolio-image {}
 
-.portfolio-subtitle {}
+.portfolio-subtitle {
+        color: rgb(46, 47, 66);
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
 
-.portfolio-text {}
+.portfolio-text {
+        color: rgb(67, 68, 85);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
 /* #endregion*/
 /* #region Footer */
-.footer {}
+.footer {
+        background: rgb(46, 47, 66);
+}
 
-.footer-logo {}
+.footer-logo {
+        color: rgb(244, 244, 253);
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-transform: uppercase;
+}
 
-.footer-text {}
+.footer-text {
+        color: rgb(244, 244, 253);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
 /* #endregion*/
+/*#region Logo*/
+.logo {
+        color: rgb(77, 90, 229);
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-transform: uppercase;
+}
+/*#endregion*/
