@@ -4,28 +4,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      body {
+        font-family: 'Raleway', 'Roboto', sans-serif;
+        color: #434455;
+        background-color: #ffffff;
+      }
+    </style>
     <!--Link normalizer-->
-    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Link fonds-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <!--Link styles-->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
       <nav class="header-nav">
-        <a class="logo" href="./index.html">Web<span class="header-logo">Studio</span></a>
         <ul class="nav-list">
-          <li><a class="nav-link" href="#studios">Studio</a><br /></li>
-          <li><a class="nav-link" href="#portfolio">Portfolio</a><br /></li>
-          <li><a class="nav-link" href="#contacts">Contacts</a><br /></li>
+          <li class="nav-item">
+            <a class="logo" href="./index.html"
+              >Web<span class="header-logo">Studio</span>
+            </a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="">Studio</a><br /></li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Portfolio</a><br />
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Contacts</a><br />
+          </li>
         </ul>
       </nav>
       <address class="contact">
         <ul class="contact-list">
           <li class="contact-item">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contact-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li class="contact-item">
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="contact-link link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
@@ -33,19 +69,19 @@
     <main>
       <section class="hero">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button type=button class="hero-button">Order Service</button>
+        <button type="button" class="hero-button button">Order Service</button>
       </section>
       <section class="studio">
         <h2 id="studios" class="studios-title">Our Studio Values</h2>
         <ul class="studios-list">
           <li class="studios-item">
             <h3 class="studios-subtitle">Strategy</h3>
-            <p>
+            <p class="studios-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
-          </li class="studios-item">
-          <li>
+          </li>
+          <li class="studios-item">
             <h3 class="studios-subtitle">Punctuality</h3>
             <p class="studios-text">
               Bring the key message to the brand's audience for the best price
@@ -118,43 +154,50 @@
         <ul class="portfolio-list">
           <li class="portfolio-item">
             <img
-              class="portfolio-image"              
-              src="./images/img_for_portfolio_card_1.png"
+              class="portfolio-image"
+              src="./images/img_for_portfolio_card_1.jpg"
               alt="Banking app"
+              width="360"
             />
             <h3 class="portfolio-subtitle">Banking App</h3>
             <p class="portfolio-text">App</p>
           </li>
           <li class="portfolio-item">
             <img
-              class="portfolio-image"  
-              src="./images/img_for_portfolio_card_2.png"
+              class="portfolio-image"
+              src="./images/img_for_portfolio_card_2.jpg"
               alt="Payment terminal"
+              width="360"
             />
             <h3 class="portfolio-subtitle">Cashless Payment</h3>
             <p class="portfolio-text">Marketing</p>
           </li>
           <li class="portfolio-item">
             <img
-             class="portfolio-image"
-             src="./images/img_for_portfolio_card_3.png" 
-             alt="Laptop" />
+              class="portfolio-image"
+              src="./images/img_for_portfolio_card_3.jpg"
+              alt="Laptop"
+              width="360"
+            />
             <h3 class="portfolio-subtitle">Meditation App</h3>
             <p class="portfolio-text">App</p>
           </li>
           <li>
             <img
-            class="portfolio-image"
-            src="./images/img_for_portfolio_card_4.png" 
-            alt="Car" />
+              class="portfolio-image"
+              src="./images/img_for_portfolio_card_4.jpg"
+              alt="Car"
+              width="360"
+            />
             <h3 class="portfolio-subtitle">Taxi Service</h3>
             <p class="portfolio-text">Marketing</p>
           </li>
           <li class="portfolio-item">
             <img
               class="portfolio-image"
-              src="./images/img_for_portfolio_card_5.png"
+              src="./images/img_for_portfolio_card_5.jpg"
               alt="Mobile design"
+              width="360"
             />
             <h3 class="portfolio-subtitle">Screen Illustrations</h3>
             <p class="portfolio-text">Design</p>
@@ -162,8 +205,9 @@
           <li class="portfolio-item">
             <img
               class="portfolio-image"
-              src="./images/img_for_portfolio_card_6.png"
+              src="./images/img_for_portfolio_card_6.jpg"
               alt="People on a meet"
+              width="360"
             />
             <h3 class="portfolio-subtitle">Online Courses</h3>
             <p class="portfolio-text">Marketing</p>
@@ -172,7 +216,9 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="logo" href="./index.html">Web<span class="footer-logo">Studio</span></a>
+      <a class="logo" href="./index.html"
+        >Web<span class="footer-logo">Studio</span></a
+      >
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
