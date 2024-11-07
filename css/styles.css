@@ -5,11 +5,11 @@
 .link:focus {
         color: #404bbf;
 }
-.button:hover {
+.button:focus {
         color: #404BBF;
         background-color: #404BBF;
 }
-.button:focus {
+.button:hover {
         color: #404BBF;
 }
 /* #endregion */
@@ -88,7 +88,7 @@
 /* #region Studios */
 .studio {}
 
-.studios-title {
+#studio {
         line-height: 1.2;
 }
 
