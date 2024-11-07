@@ -8,10 +8,6 @@
 .button:focus {
         color: #404BBF;     
 }
-.button:hover {
-        color: #404BBF;
-        background-color: #404BBF;
-}
 /* #endregion */
 /* #region Header */
 .header {}
@@ -84,13 +80,15 @@
         cursor: pointer;
         line-height: 1.5;
 }
+.hero-button:hover {
+        color: #404BBF;
+        background-color: #404BBF;
+}
 /* #endregion*/
 /* #region Studios */
 .studio {}
 
-.studios-title {
-        line-height: 1.2;
-}
+.studios-title {}
 
 .studios-list {}
 
@@ -102,6 +100,7 @@
         font-size: 20px;
         font-weight: 500;
         letter-spacing: 0.02em;
+        line-height: 1.2;
 }
 
 .studios-text {
