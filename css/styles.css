@@ -1,9 +1,25 @@
 /* #region Base */
+/* #region Tags */
+a {
+        text-decoration: none;
+}
+
+ul {
+        list-style: none;
+}
+/* #endregion */
 .link:hover {
         color: #404bbf;
 }
+
 .link:focus {
         color: #404bbf;
+}
+
+.body {
+        color: #434455;
+        background-color: #ffffff;
+        font-family: 'Roboto', sans-serif;
 }
 /* #endregion */
 /* #region Header */
@@ -13,7 +29,7 @@
 
 .header-logo {
         color: rgb(46, 47, 66);
-        font-family: Raleway,sans-serif;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
         letter-spacing: 0.03em;
@@ -23,34 +39,34 @@
 
 .nav-list {}
 
-.nav-item{}
+.nav-item {}
 
 .nav-link {
         line-height: 1.5;
         color: #2e2f42;
-        font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
         letter-spacing: 0.02em;
 }
 
 .contact {
-        font-style:normal;
+        font-style: normal;
 }
 
 .contact-list {}
 
 .contact-item {
         color: rgb(67, 68, 85);
-        font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
         letter-spacing: 0.02em;
 }
-.contact-link{
-        color:#434455;
+
+.contact-link {
+        color: #434455;
         line-height: 1.5;
 }
+
 /* #endregion */
 /* #region Hero */
 .hero {
@@ -59,7 +75,6 @@
 
 .hero-title {
         color: rgb(255, 255, 255);
-        font-family: Roboto;
         font-size: 56px;
         font-weight: 700;
         letter-spacing: 0.02em;
@@ -67,22 +82,25 @@
         text-align: center;
 }
 
-.hero-button{
+.hero-button {
         color: rgb(255, 255, 255);
-        font-family: Roboto,sans-serif;
         font-size: 16px;
         font-weight: 500;
         letter-spacing: 0.04em;
         background: rgb(77, 90, 229);
         cursor: pointer;
         line-height: 1.5;
+        font-family: 'Roboto', sans-serif;
 }
+
 .hero-button:hover {
         background-color: #404BBF;
 }
+
 .hero-button:focus {
         background-color: #404BBF;
 }
+
 /* #endregion*/
 /* #region Studios */
 .studio {}
@@ -95,7 +113,6 @@
 
 .studios-subtitle {
         color: rgb(46, 47, 66);
-        font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
         letter-spacing: 0.02em;
@@ -103,22 +120,21 @@
 }
 
 .studios-text {
-        color:#434455;
-        font-family: Roboto;
+        color: #434455;
         font-size: 16px;
         font-weight: 400;
         letter-spacing: 0.02em;
         line-height: 1.5;
 }
+
 /* #endregion*/
 /* #region Contacts */
 .contacts {
-        background-color:#F4F4FD;
+        background-color: #F4F4FD;
 }
 
 .contacts-title {
         color: rgb(46, 47, 66);
-        font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
         letter-spacing: 0.02em;
@@ -137,7 +153,6 @@
 
 .contacts-subtitle {
         color: rgb(46, 47, 66);
-        font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
         line-height: 24px;
@@ -147,20 +162,19 @@
 
 .contacts-text {
         color: rgb(67, 68, 85);
-        font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.02em;
         text-align: center;
 }
+
 /* #endregion*/
 /* #region Portfolio */
 .portfolio {}
 
 .portfolio-title {
         color: rgb(46, 47, 66);
-        font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
         letter-spacing: 0.02em;
@@ -177,7 +191,6 @@
 
 .portfolio-subtitle {
         color: rgb(46, 47, 66);
-        font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
         letter-spacing: 0.02em;
@@ -186,12 +199,12 @@
 
 .portfolio-text {
         color: rgb(67, 68, 85);
-        font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
         letter-spacing: 0.02em;
         line-height: 1.5;
 }
+
 /* #endregion*/
 /* #region Footer */
 .footer {
@@ -200,7 +213,7 @@
 
 .footer-logo {
         color: rgb(244, 244, 253);
-        font-family: Raleway,sans-serif;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
         letter-spacing: 0.03em;
@@ -210,17 +223,17 @@
 
 .footer-text {
         color: rgb(244, 244, 253);
-        font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
         letter-spacing: 0.02em;
         line-height: 1.5;
 }
+
 /* #endregion*/
 /*#region Logo*/
 .logo {
         color: rgb(77, 90, 229);
-        font-family: Raleway,sans-serif;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
